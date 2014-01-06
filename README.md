@@ -18,6 +18,7 @@ Example:
       <input type="submit" class="diag-btn" value="Cancel">
     </div>
  
+For lefthanded support add `class="left-handed"` to the body tag.
 
 For more examples, see http://jsfiddle.net/maxk42/G7qLd/
  

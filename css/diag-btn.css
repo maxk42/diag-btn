@@ -1,4 +1,11 @@
-div.diag-btn {
+div.diag-btn, body.left-handed div.diag-btn {
+  display: inline-block;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+}
+div.diag-btn, body.right-handed div.diag-btn {
   display: inline-block;
   -webkit-transform: rotate(-45deg);
   -moz-transform: rotate(-45deg);
